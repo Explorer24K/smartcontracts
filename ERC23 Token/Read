@@ -9,3 +9,14 @@
 Switching from ERC20 to ERC223
 
 "ERC23 tokens are backwards compatible with ERC20 tokens. It means that ERC23 supports every ERC20 functions and contracts or services working with ERC20 tokens will work with ERC23 tokens correctly."
+
+ERC20 is already existing token standard used by ethereum tokens. ERC23 is a new version of token standard.
+Problems.
+You can't deposit ether in contract that is not specified to accept ether deposits. For example you can't deposit ETC in dao-withdrawal contract. But you can send your ERC20 tokens anywhere so you can deposit BitEtherCoin in dao-withdrawal contract where your BEC will stay forever as dao-withdrawal contract is not designed to work with BEC and there will be no way to access BEC on this contract. ERC23 tokens can't be sent to a random contract similarly to ether. Only contract specified with ERC23 deposits will accept ERC23 tokens.
+Transactions.
+Transactions between addresses are same in ERC20 and ERC23. When you need to deposit your ERC20 token in contract you should call approval function in token contract to approve a specified (amount*token decimals) to be transferred from your address to target contract. Then you need to call deposit function on target contract to finalize your deposit and transfer your tokens. Note: If you accidentally sent your ERC20 tokens to target contract without calling approval your tokens would be lost!
+Interaction between ERC23 and other contracts is much easier. You need just to send your ERC23 tokens to contract address like you send them to another wallet. There is no difference for user to send ERC23 to contract or to address.
+100% Backward compatibility.
+ERC23 supports all ERC20 functions and can also be transferred via approval method.
+Optimization.
+In fact transfer of ERC20 tokens between address and contract is a pair of two different transactions while transfer of ERC23 tokens is a single transaction. ERC20 tokens transfer to contract fires Approval event on token contract and then fires Transfer event on contract receiving tokens. ERC23 tokens transfer fires only Transfer event and can prevent extra blockchain bloating as every event is stored in blockchain.
