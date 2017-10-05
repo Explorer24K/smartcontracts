@@ -1,0 +1,11 @@
+3 Primary improvements with ERC223:
+
+(1) Eliminates the problem of lost tokens which happens during the transfer of ERC20 tokens to a contract (when people mistakenly use the instructions for sending tokens to a wallet). ERC223 allows users to send their tokens to either wallet or contract with the same function transfer, thereby eliminating the potential for confusion and lost tokens.
+
+(2) Allows developers to handle incoming token transactions, and reject non-supported tokens (not possible with ERC20)
+
+(3) Energy savings. The transfer of ERC223 tokens to a contract is a one step process rather than 2 step process (for ERC20), and this means 2 times less gas and no extra blockchain bloating.
+
+Switching from ERC20 to ERC223
+
+"ERC23 tokens are backwards compatible with ERC20 tokens. It means that ERC23 supports every ERC20 functions and contracts or services working with ERC20 tokens will work with ERC23 tokens correctly."
