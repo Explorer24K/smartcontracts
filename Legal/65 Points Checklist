@@ -1,0 +1,80 @@
+Starting a Blockchain Software Company: 65 Point Legal Checklist
+Starting a blockchain software business? Below is a checklist of some of the legal & business issues common to this emerging industry.
+1. Code
+   ☐ Build off an existing platform like Ethereum or create a new blockchain platform?
+      ☐ Generally don't need permission to build but banks are keen on "permissioned" blockchains and integration partners may require agreements
+   ☐ Open source or closed source? Generally "blockchain" = open source but there are other models (e.g. R3).
+      ☐ A combination of open source and closed source? Which parts? 
+   ☐ How will the blockchain be used? How will the software be used? Which open source license is most appropriate?
+   ☐ Who will own contributions to the code? Will there be a "contributor license agreement"? Assignment? 
+   ☐ What about supporting assets like images, videos, etc.? Written agreements will help avoid conflicts later and ensure that a departing individual doesn't take their work with them.
+2. Tokens
+   ☐ Will the software use a new token? What will it do? 
+      ☐ Will the tokens exist within an existing software system like Ethereum? Or a new platform?
+   ☐ Will the tokens be sold in advance of the product launch? (an "Initial Coin Offering" or "crowdsale")
+   ☐ What are the implications of selling the tokens? Is it a sale of "securities"? 
+   ☐ Are there securities law issues or question marks? How will the answers be discovered? At what cost?
+   ☐ In what countries will the tokens be sold? 
+      ☐ Specific issues in certain places? Will some places be off limits due to legal issues? 
+   ☐ What are the tax implications of selling the tokens? Will all the money be spent on development or will there be a profit component to the sale?
+   ☐ Who will speak for the business? How will miscommunication be avoided? 
+3. Corporate Structure
+   ☐ Will there be a company? Where will it be incorporated?
+   ☐ Generally companies are incorporated where the founders live
+   ☐ Will the company structure allow for distribution of equity? Is that important or will the reward be tokens?
+      ☐ How will equity be given out? To whom? Vesting terms? 
+4. People
+   ☐ Who will build the product? Who will run the business?
+      ☐ Written agreements help avoid disputes. Are confidentiality agreements (NDAs) necessary or desirable?
+      ☐ Titles make responsibilities clear both within an organization and outside. Who will be the leaders?
+      ☐ Will there be a vetting process for contributors? e.g. Mozilla
+   ☐ What incentives will be necessary to bring the right people on board? Equity? Tokens? Titles? 
+   ☐ Will contributors be employees or contractors? Will they work in an office or remotely?
+      ☐ What are the tax differences for employee vs. contractor? What systems are needed to ensure appropriate taxes are paid (to avoid penalties)?
+5. Revenue Model
+   ☐ How will continued development of the product be sustained after the initial money runs out? Is money required?
+   ☐ How will the business make money? How could it make money?
+6. Funding
+   ☐ Can the business be self-funded? This is the easiest and fastest option usually but requires significant personal resources.
+      ☐ Should it be? Is it better to have others involved from the beginning with "skin in the game"?
+   ☐ Can the initial founders fund the business? 
+      ☐ Are the initial founders a complete team? Are there skills missing?
+      ☐ Will sweat equity by founders get the business to where it needs to be? 
+      ☐ Can the initial founders lend the business the money necessary to start up? Written agreements can help avoid conflict later on.
+   ☐ Will there be a product pre-sale?
+      ☐ Will it be a traditional product pre-sale like Kickstarter?
+      ☐ Will it be an "initial coin offering" (ICO)? Modelled on the Ethereum sale? 
+      ☐ When will the product be delivered? 
+      ☐ Is securities advice necessary?
+      ☐ What sort of documentation will purchasers be given?
+   ☐ Will there be external investors?
+      ☐ Angel investors? Venture capital? 
+      ☐ Will the nature of the external investment have any bearing on the product development? 
+      ☐ What sort of legal advice/paperwork will be necessary for the investors?
+7. Beta-Testing
+   ☐ How buggy is/will the product be when it's first tested?
+      ☐ What's the worst that could happen? e.g. The DAO...
+   ☐ What sort of disclaimers are necessary? What are the consequences of improper disclaimers? 
+8. Customers
+   ☐ Who will the customers be? 
+   ☐ Is a terms of use agreement necessary for the software? 
+   ☐ Are more complicated agreements necessary for business users?
+   ☐ What personal information will the business have? 
+      ☐ Is a policy necessary?
+      ☐ How will personal information be secured? Who will have access to it?
+9. Trademarks
+   ☐ Are trademarks necessary to protect the business name? Who will be allowed to use the name?
+      ☐ How will they be enforced?
+   ☐ How much will it cost to file trademarks in key countries/regions?
+10. Patents
+   ☐ Is anything new being created? Is it patentable? Do other people have patents on how it will be done?
+   ☐ Do the funders (if any) want patents?
+   ☐ Are patents desirable? 
+   ☐ Should the patents be licensed to the community? e.g. DPL.
+11. Accounting
+   ☐ How will money be tracked within the organization? Cryptocurrencies (e.g. Bitcoin) use multiple addresses rather than a single business bank account and may require different processes than a traditional business.
+   ☐ How will expenses and income be tracked? Who will be responsible? 
+   ☐ Will accountants from several countries be required? 
+   ☐ Will tax advice on movement of funds between countries be required? (transfer pricing)
+Note: the list above is not exhaustive.
+There may be important legal consequences to actions in this space. Speak to a lawyer about your specific situation or the business you're considering starting.
